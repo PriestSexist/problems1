@@ -7,9 +7,8 @@ def maxEl(a):
                 a[i], a[j] = a[j], a[i]
 
 
-a = [str(i) for i in input('Введите значения длин через пробел ').split()]
+a = [str(i) for i in input('Введите числа ').split()]
 maxEl(a)
-print(a)
 t = ""
 for i in range((len(a))):
     t += a[i]
